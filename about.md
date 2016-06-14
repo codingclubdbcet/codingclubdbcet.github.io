@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#$ cat about.txt
+# $ cat about.txt
 {:id = "about" }
 
 {% raw %}{The process of}{% endraw %} Coding is specially attractive not only because it can be economically and scientifically rewarding,

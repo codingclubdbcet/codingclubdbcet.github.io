@@ -19,3 +19,15 @@ github_username: codingclubadbu
 
 # Build settings
 markdown: kramdown
+
+# collectons
+collections:
+    workshops:
+        output: true
+        permalink: /workshops/:path/
+    projects:
+        output: true
+        permalink: /projects/:path/
+    meetups:
+        output: true
+        permalink: /meetups/:path/
