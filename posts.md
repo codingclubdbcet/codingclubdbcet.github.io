@@ -5,8 +5,11 @@ layout: default
     {% for post in site.posts %}
         <li> 
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            by {% for author in post.authors %} {{ author }} {% endfor %}
-            {{ post.date }}
+            <i>by:</i>
+            {% for author in post.authors %} 
+                {% if forloop.last %} {{ author }} on {% else %} {{ author }}, {% endif %} 
+            {% endfor %}
+            {{ post.date | date_to_string }}
             {{ post.excerpt }}
         </li>
     {% endfor %}

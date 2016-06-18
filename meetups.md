@@ -10,7 +10,7 @@ to the list to get informed when we will meet next.
 <ul>
     {% for meetup in site.meetups %}
         <li> 
-            <a href="{{ meetup.url }}">{{ meetup.title }} on {{ meetup.date }}</a>
+            <a href="{{ meetup.url }}">{{ meetup.title }} on {{ meetup.date | date_to_string }}</a>
             {{ meetup.excerpt }}
         </li>
     {% endfor %}

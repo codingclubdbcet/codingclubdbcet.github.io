@@ -4,7 +4,7 @@ layout: default
 # $ cat projetcs.txt
 None done yet, but we would like to work on some cool projects together
 if you have any suggestions or want to work on a project together please
-hop on to the [mailing list.](mailto:codingclub-discussoins@googlegroups.com)
+hop on to the [mailing list.](mailto:codingclub-discussoins+subscribe@googlegroups.com)
 
 # $ cat /proc/projects
 <ul>

@@ -9,7 +9,7 @@ to learn about new and less known subjects and to have some good time together w
 <ul>
     {% for workshop in site.workshops %}
         <li> 
-            <h2><a href="{{ workshop.url }}">{{ workshop.title }} on {{ workshop.date }}</a>
+            <h2><a href="{{ workshop.url }}">{{ workshop.title }} on {{ workshop.date | date_to_string }}</a>
             {{ workshop.excerpt }}
         </li>
     {% endfor %}
