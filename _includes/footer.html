@@ -2,4 +2,13 @@
 {% if page.comments %}
 	{% include disqus.html %}
 {% endif %}
+<ul>
+    {% if site.github_username %}
+        <li>
+         {% include icon-github.html username=site.github_username %}
+        </li>
+    {% endif %}
+     Built with <3 using Jekyll and <a href="https://github.com/gjuniioor/darcli">darcli,</a> Hosted at Github pages.
+     view the source at this <a href="https://github.com/codingclubdbcet/codingclubdbcet.github.io/">repo</a>.
+</ul>
 </footer>
