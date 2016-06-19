@@ -30,4 +30,10 @@ layout: default
 
 # $ cat articles.txt
 {:id="articles"}
-
+<div class="mailing-list-wrapper">
+<h1>Subscribe to the mailing list</h1>
+<p>join our <a href="https://groups.google.com/forum/#!forum/codingclub-discussions/">mailing list</a> by sending a <a href="mailto:codingclub-discussions+subscribe@googlegroups.com">mail</a> to 
+<strong><em>"codingclub-discussions+subscribe@googlegroups.com"</strong></em>
+or by clicking on this <a href="https://groups.google.com/forum/#!forum/codingclub-discussions/join/" target="_blank">link</a>.
+</p>
+</div>
