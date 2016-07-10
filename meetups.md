@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /meetups/
 ---
 # $ cat meetups.txt
 we organise meetups to discuss about various topics whenever possible,

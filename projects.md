@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /projects/
 ---
 # $ cat projetcs.txt
 None done yet, but we would like to work on some cool projects together

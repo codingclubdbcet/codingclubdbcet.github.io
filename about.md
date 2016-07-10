@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /about/
 ---
 # $ cat about.txt
 {:id = "about" }

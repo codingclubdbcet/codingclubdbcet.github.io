@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /workshops/
 ---
 # $ cat workshops.txt
 we organise workshops to keep our members updated with the latest and greates technologies in the field of computer science,

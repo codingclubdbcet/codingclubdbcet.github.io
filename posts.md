@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /posts/
 ---
 <ul style="list-style: none;">
     {% for post in site.posts %}
