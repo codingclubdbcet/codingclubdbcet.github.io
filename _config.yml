@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
     of Assam don bosco university. The club is run by the students and 
     a faculty advisor. we coduct talks at member meetups and ocassionally
     host workshops for the club members.
+baseurl: ""
 url: "http://codingclubdbcet.github.io" # the base hostname & protocol for your site
 github_username: codingclubadbu 
 
