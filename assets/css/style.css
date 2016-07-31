@@ -115,3 +115,20 @@ footer ul li {
     margin-bottom: 15px;
     text-align: center;
 }
+
+.member-avatar {
+    width: 200px;
+    position: relative;
+    border: 0;
+}
+
+.members {
+    display: inline-block;
+    margin: 1%;
+    text-align: center;
+}
+
+.member-container {
+    text-align: center;
+}
+
